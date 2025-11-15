@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <center> <h1>HTML Forms 😂</h1> </center>
+    <form action="./iframe1.html" method="post">
+        <h1>HTML5<i class="fa-brands fa-html5" style="color:orange;font-size:80px"></i></h1>
+        <label for="fn">First Name:</label>
+        <input type="text" id="fn" placeholder="example@john" name="fn" value="hello" required size="20" maxlength="15" minlength="5"><br><br>
+        <label for="ln">Last Name: </label>
+        <input type="text" id="ln" placeholder="enter your last name" name="ln" autofocus required><br><br>
+        <label for="pass">Password</label> 
+        <input type="password" name="" id="pass"><br><br>
+        <label for="em">Email</label>
+        <input type="email" name="" id = "em" placeholder="ex:ab12@gmail.com"><br><br>   
+        <label for="nu">Number</label>
+        <input type="number" id="nu"><br><br>
+        <label for="ph">Phone Number</label>
+        <input type="tel" value="+91" id="ph" disabled size="1">
+        <input type="tel" id="ph" placeholder="ex:678902342"><br><br>
+        <label for="range">Product Price:</label>
+        <input type="range" min="0" max="100" step="5" id="range"><br><br>
+        <label for="col">Fav Colour</label>
+        <input type="color"><br><br>
+        <label for="date">Date</label>
+        <input type="date" id="date"><br><br>
+        <label for="time">Time</label>
+        <input type="time" id="time"><br><br>
+        <label for="mon">Month</label>
+        <input type="month" id="mon"><br><br>
+        <label for="dt">Date&Time</label>
+        <input type="datetime-local" id="dt"><br><br>
+        <!--radio-->
+        <label for="">Gender</label>
+        <input type="radio" value="male" name="gender" id="m">
+        <label for="m">Male</label>
+        <input type="radio" value="female" name="gender" id="f">
+        <label for="f">Female</label><br><br>
+        <!--check box-->
+        <label for="">Hobbies:</label>
+        <input type="checkbox" id="eat">
+        <label for="eat">Eating</label>
+        <input type="checkbox" id="sleep">
+        <label for="sleep">Sleeping</label>
+        <input type="checkbox" id="scroll">
+        <label for="scroll">Scrolling Reels</label><br><br>
+        <label for="">State</label>
+        <!--drop dowm--> 
+        <select name="state" id="">
+             <option value="ap">Andhra Pradesh</option>
+              <option value="tg">Telangana</option>
+               <option value="k">Kerala</option>
+                <option value="ka">Karnataka</option>
+                 <option value="tn">Tamil Nadu</option>
+        </select><br><br>
+       <!--text area-->
+       <label for="">Address</label>
+       <textarea name="" id="" rows="5" cols="50"></textarea><br><br>
+       <!--field set-->
+       <fieldset>
+             <legend>Personal Information</legend>
+            <label for="na">Name</label>
+            <input type="text" id="na" placeholder="ex:john"><br><br>
+            <label for="em">Email</label>
+            <input type="email" id="em" placeholder="ex:john@gmail.com"><br><br>
+       </fieldset><br><br>
+       <label for="fi">Upload your resume: </label>
+       <input type="file" id="fi"><br><br>
+
+        <input type="reset">
+         <input type="submit">
+
+    </form>
+</body>
+</html>
+
+<!--
+Forms:
+collection of data from user
+
+Types of forms:
+1. Physical form : apply physically
+2. Application form: sign up(register newly) / login(enter details to login) / sign in (mail)
+3. URL Form: Through link
+
+form tags:
+<form>label,input</form>
+** label,input
+
+attributes:
+    form: 
+        action
+        method
+    label:
+        for
+    input:
+        type        -> which type of data
+        id          -> connecting  label and input  
+        placeholder ->
+        name        -> used to store at backend
+        value       ->set the value by default
+        disabled    ->it will disable 
+        autofocus
+        maxlength
+        minlength
+        required
+        size
+
+
+
+
+-->

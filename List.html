@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type of lists</title>
+    <style>
+        .Parent{
+            display: flex; 
+            justify-content: space-between;
+            width:100%;
+        }
+        .card{
+            width:400px;
+            height: 650px;
+            border : 1px solid;
+            border-radius: 9px;
+           padding: 20px;
+            align-items: center;
+            box-shadow: 2px;
+            background-color: aliceblue;
+            
+        }
+    </style>
+</head>
+<body>
+   <div style="background-color:aquamarine;padding:10px">
+     <dl>
+        <dt style="font-size:30px;"><strong> Lists</strong> </dt>
+        <dd style="font-size:20px;">HTML lists allow web developers to group a set of related items in lists.</dd>
+       <h1>Types of Lists</h1>
+        <ul>
+            <li>Ordered List</li>
+            <li>Unordered List</li>
+            <li>Description List</li>
+        </ul>
+     </dl>
+   </div>
+        <center>
+            <marquee behavior="" direction="right" style="background-color: blueviolet;color:white"><h1>Lists in HTML</h1></marquee>
+        </center>
+        <div class="Parent">
+            <div class="card">
+                <div style="color:white;background-color:red;padding:5px;width:100%;height:100%">
+                    <h3>Ordered Lists</h3>
+                <h4>Example</h4>
+                <h4>Fruits:</h4>
+                <ol>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>cherry</li>
+                    <li>Blue berry</li>
+                </ol>
+
+                <h4>Colours</h4>
+                <ol type="A">
+                    <li>Green</li>
+                    <li>Orange</li>
+                    <li>Blue</li>
+                    <li>Purple</li>
+                </ol>
+                <h4>Flowers</h4>
+                <ol type="a">
+                    <li>Rose</li>
+                    <li>Sun flower</li>
+                    <li>cauliflower</li>
+                    <li>jasmine</li>
+                </ol>
+                <h4>Cars</h4>
+                <ol type="I">
+                    <li>suzuki</li>
+                    <li>maruthi</li>
+                    <li>skoda</li>
+                    <li>TATA</li>
+                </ol>
+
+                </div>
+                
+            </div>
+             <div class="card">
+               <div style="background-color:rgb(230, 179, 86);padding:5px;width: 100%;height:100%">
+                <h3>Unordered List</h3>
+               <h4>Example</h4>
+               <h4>Fruits:</h4>
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>cherry</li>
+                    <li>Blue berry</li>
+                </ul>
+                <h4>Colours</h4>
+                <ul type="circle"> 
+                    <li>Green</li>
+                    <li>Orange</li>
+                    <li>Blue</li>
+                    <li>Purple</li>
+                </ul>
+                <h4>Flowers</h4>
+                <ul type="square">
+                    <li>Rose</li>
+                    <li>Sun flower</li>
+                    <li>cauliflower</li>
+                    <li>jasmine</li>
+                </ul>
+               </div>
+             </div>
+             <div class="card">
+                <div style="color:white;background-color:rgb(26, 177, 236);padding:5px;width: 100%;height:100%">
+                    <h3>Description list</h3>
+                <h4>Example</h4>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd> - Hyper text mrkup language</dd>
+                    <dt>Ordered List</dt>
+                    <dd>- An ordered list starts with the 'ol' tag. Each list item starts with the 'li' tag.</dd>
+                    <dt>Unordered List</dt>
+                    <dd> - An unordered list starts with the 'ul' tag. Each list item starts with the 'li' tag.</dd>
+                    <dt>Description List</dt>
+                    <dd> - The 'dl' tag defines the description list, the 'dt' tag defines the term (name), and the 'dd' tag describes each term:</dd>
+                </dl>
+                </div>
+             </div>
+        </div>
+   
+   
+</body>
+</html>
